@@ -18,7 +18,7 @@ namespace FarFetched.Shared.Architecture
 
         protected new void RaisePropertyChanged<T>(Expression<Func<T>> changedArgs)
         {
-            //do normal UI updates
+            //do normal UI updates 
             base.RaisePropertyChanged(changedArgs);
 
             //now invoke any action bindings
