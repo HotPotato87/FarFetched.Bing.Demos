@@ -37,7 +37,7 @@ namespace FarFetched.Shared.Architecture
             if (RequestShowMessage != null)
             {
                 RequestShowMessage(title, message);
-            } 
+            }
         }
 
         public void RunOnUiThread(Action a)
