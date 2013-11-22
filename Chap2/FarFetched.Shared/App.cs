@@ -1,5 +1,4 @@
 using Cirrious.CrossCore.IoC;
-using FarFetched.Shared.ViewModels;
 
 namespace FarFetched.Shared
 {
@@ -12,7 +11,7 @@ namespace FarFetched.Shared
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 				
-            RegisterAppStart<SearchPageViewModel>();
+            RegisterAppStart<ViewModels.FirstViewModel>();
         }
     }
 }

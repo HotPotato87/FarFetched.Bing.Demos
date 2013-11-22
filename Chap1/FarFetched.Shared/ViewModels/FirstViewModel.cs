@@ -1,6 +1,6 @@
 using Cirrious.MvvmCross.ViewModels;
 
-namespace $rootnamespace$.ViewModels
+namespace FarFetched.Shared.ViewModels
 {
     public class FirstViewModel 
 		: MvxViewModel
