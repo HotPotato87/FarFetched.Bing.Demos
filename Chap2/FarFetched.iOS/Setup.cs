@@ -1,3 +1,4 @@
+using FarFetched.Shared;
 using MonoTouch.UIKit;
 using Cirrious.CrossCore.Platform;
 using Cirrious.MvvmCross.ViewModels;
@@ -14,7 +15,7 @@ namespace FarFetched.iOS
 
 		protected override IMvxApplication CreateApp ()
 		{
-			return new Core.App();
+			return new App();
 		}
 		
         protected override IMvxTrace CreateDebugTrace()

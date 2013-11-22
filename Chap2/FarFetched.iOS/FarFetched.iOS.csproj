@@ -123,6 +123,12 @@
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FarFetched.Shared\FarFetched.Shared.csproj">
+      <Project>{05dabdfa-ee18-4348-8294-623f11811d82}</Project>
+      <Name>FarFetched.Shared %28Chap2 - iOS\.Shared\FarFetched.Shared%29</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
 </Project>

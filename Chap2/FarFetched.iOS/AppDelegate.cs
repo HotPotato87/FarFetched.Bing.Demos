@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using Cirrious.MvvmCross.Touch.Platform;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
 namespace FarFetched.iOS
 {
     [Register("AppDelegate")]
-    public partial class AppDelegate : UIApplicationDelegate
+    public partial class AppDelegate : MvxApplicationDelegate
     {
         UIWindow window;
         MyViewController viewController;
