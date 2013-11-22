@@ -17,7 +17,7 @@ namespace FarFetched.iOS
         {
             window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-            viewController = new MyViewController();
+            viewController = new MyViewController(); 
             window.RootViewController = viewController;
 
             window.MakeKeyAndVisible();
